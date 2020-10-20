@@ -1,5 +1,6 @@
 {
     "name": "codicastudio/codebase",
+    "type": "package",
     "description": "A random Codica Studio package.",
     "homepage": "https://github.com/codicastudio/codebase",
     "license": "MIT",
@@ -32,7 +33,7 @@
     },
     "config": {
         "optimize-autoloader": true,
-        "preferred-install": "dist",
+        "preferred-install": "source",
         "sort-packages": true
     },
     "extra": {
