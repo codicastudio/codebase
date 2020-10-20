@@ -64,7 +64,8 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "npm install && npm run dev",
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "composer test"
         ],
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
